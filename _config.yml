@@ -1,3 +1,5 @@
 theme: jekyll-theme-midnight
 title: Ask the Birds
-description: Bookmark this to keep an eye on my project updates!
+description: They speak the world's oldest language.
+github:
+  is_project_page: false
