@@ -75,6 +75,55 @@ body {
       border: 0;
     }
 
+  .event-widget {
+    display: inline-flex;
+    background-color: #222;
+    border-radius: 12px;
+    overflow: hidden;
+    font-family: 'Work Sans', sans-serif;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .date-part, .time-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1.25rem;
+    text-align: center;
+  }
+
+  .date-part {
+    background-color: #00ffd5;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .month {
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+  }
+
+  .day {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .time-part {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .weekday {
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+  }
+
+  .time {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
     footer {
       margin-top: 5rem;
       font-size: 0.9rem;
@@ -91,6 +140,17 @@ body {
   <p>Birds are words that fly, returning messages and visions.</p>
 
   <p>Ask your questions, and Enrique Enriquez will speak to the birds to retrieve their answers. He will share some of these answers at his talk on Friday, May 30, 2025, at 7:30pm (doors at 6:30pm) at The Gold Bug in Pasadena.</p>
+
+  <div class="event-widget">
+  <div class="date-part">
+    <span class="month">MAY</span>
+    <span class="day">30</span>
+  </div>
+  <div class="time-part">
+    <span class="weekday">FRI</span>
+    <span class="time">7:30 PM</span>
+  </div>
+</div>
 
   <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6603.91720069435!2d-118.1522052243924!3d34.14740127312123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c37177ce8015%3A0x315baf17ac5d38fc!2sGold%20Bug!5e0!3m2!1sen!2sus!4v1745218145210!5m2!1sen!2sus"
