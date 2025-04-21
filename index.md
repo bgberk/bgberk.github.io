@@ -7,7 +7,7 @@ layout: null
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ask the Birds</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?familyLibre+Franklin:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     * {
       box-sizing: border-box;
@@ -25,7 +25,7 @@ body {
   }
 
   h1, h2, h3 {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     font-weight: 700;
     margin-bottom: 1rem;
   }
@@ -36,6 +36,18 @@ body {
     color: #ccc;
     max-width: 700px;
     margin: 2rem auto;
+  }
+
+    a.email-link {
+    color: #00ffd5; /* or any other custom color */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  a.email-link:hover {
+    color: #ffffff; /* hover effect */
+    text-decoration: underline;
   }
 
     img {
@@ -84,7 +96,7 @@ body {
   <img src="/assets/photos/enriquecafe.png" alt="Enrique in New York" style="width: 100%; height: auto; border-radius: 12px;" />
 </div>
 
-  <p>Send your questions for the birds to <a href="mailto:enrique.enriquez@gmail.com?subject=A Question for the Birds">enrique.enriquez@gmail.com</a>.</p>
+  <p>Send your questions for the birds to <a class="email-link" href="mailto:enrique.enriquez@gmail.com?subject=A Question for the Birds">enrique.enriquez@gmail.com</a>.</p>
 
   <p>Talk to the birds without shyness. They carry the oldest oral tradition.</p>
 
