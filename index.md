@@ -81,7 +81,7 @@ layout: null
 
   <img src="/assets/photos/enriquecafe.png" alt="Enrique Enriquez in New York" />
 
-  <p>Send your questions for the birds to <a mailto:enrique.enriquez@gmail.com?subject=A Question for the Birds>enrique.enriquez@gmail.com</a>.</p>
+  <p>Send your questions for the birds to <a href=mailto:enrique.enriquez@gmail.com?subject=A Question for the Birds>enrique.enriquez@gmail.com</a>.</p>
 
   <p>Talk to the birds without shyness. They carry the oldest oral tradition.</p>
 
