@@ -84,7 +84,7 @@ body {
   <img src="/assets/photos/enriquecafe.png" alt="Enrique in New York" style="width: 100%; height: auto; border-radius: 12px;" />
 </div>
 
-  <p>Send your questions for the birds to <a href=mailto:enrique.enriquez@gmail.com?subject=A Question for the Birds>enrique.enriquez@gmail.com</a>.</p>
+  <p>Send your questions for the birds to <a href="mailto:enrique.enriquez@gmail.com?subject=A Question for the Birds">enrique.enriquez@gmail.com</a>.</p>
 
   <p>Talk to the birds without shyness. They carry the oldest oral tradition.</p>
 
