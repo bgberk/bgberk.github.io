@@ -7,7 +7,7 @@ layout: null
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ask the Birds</title>
-<link href="https://fonts.googleapis.com/css2?familyLibre+Franklin:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     * {
       box-sizing: border-box;
@@ -25,7 +25,7 @@ body {
   }
 
   h1, h2, h3 {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-bottom: 1rem;
   }
@@ -39,7 +39,7 @@ body {
   }
 
     a.email-link {
-    color: #00ffd5; /* or any other custom color */
+    color: #bbb; /* or any other custom color */
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s ease;
