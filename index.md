@@ -2,12 +2,11 @@
 layout: null
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Trendy Site</title>
+  <title>Ask the Birds</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     * {
@@ -72,19 +71,24 @@ layout: null
 </head>
 <body>
 
-  <h1>Hello, World 🌍</h1>
+  <p>You are invited to</p>
 
-  <p>Welcome to my tiny corner of the internet. This is where bold ideas meet minimal vibes.</p>
+  <h1>Ask the Birds</h1>
 
-  <img src="/assets/images/your-photo.jpg" alt="Your Trendy Photo" />
+  <p>Birds are words that fly, returning messages and visions.</p>
 
-  <p>This is where creativity lives. Big thoughts. Simple design. A quiet digital space to explore and inspire.</p>
+  <p>Ask your questions, and Enrique Enriquez will speak to the birds to retrieve their answers. He will share some of these answers at his talk on Friday, May 30, 2025, at 7:30pm (doors at 6:30pm) at The Gold Bug in Pasadena.</p>
 
-  <p>Scroll slowly. Breathe deeply. Stay curious.</p>
+  <img src="/assets/images/enriquecafe.png" alt="Enrique Enriquez in New York" />
 
-  <div class="video-wrapper">
-    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
-  </div>
+  <p>Send your questions for the birds to <a mailto:enrique.enriquez@gmail.com?subject=A Question for the Birds>enrique.enriquez@gmail.com</a>.</p>
+
+  <p>Talk to the birds without shyness. They carry the oldest oral tradition.</p>
+
+<video controls autoplay muted playsinline loop style="width: 100%; max-width: 800px; border-radius: 12px; margin-top: 3rem; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+  <source src="/assets/videos/CLIP.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
   <footer>
     &copy; 2025
