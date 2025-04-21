@@ -79,14 +79,14 @@ layout: null
 
   <p>Ask your questions, and Enrique Enriquez will speak to the birds to retrieve their answers. He will share some of these answers at his talk on Friday, May 30, 2025, at 7:30pm (doors at 6:30pm) at The Gold Bug in Pasadena.</p>
 
-  <img src="/assets/images/enriquecafe.png" alt="Enrique Enriquez in New York" />
+  <img src="/assets/photos/enriquecafe.png" alt="Enrique Enriquez in New York" />
 
   <p>Send your questions for the birds to <a mailto:enrique.enriquez@gmail.com?subject=A Question for the Birds>enrique.enriquez@gmail.com</a>.</p>
 
   <p>Talk to the birds without shyness. They carry the oldest oral tradition.</p>
 
 <video controls autoplay muted playsinline loop style="width: 100%; max-width: 800px; border-radius: 12px; margin-top: 3rem; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
-  <source src="/assets/videos/CLIP.mp4" type="video/mp4">
+  <source src="/assets/videos/clip.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
