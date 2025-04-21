@@ -27,6 +27,7 @@ body {
   h1, h2, h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -77,8 +78,9 @@ body {
 
   .event-widget {
     display: inline-flex;
-    background-color: #222;
+    background-color: #ccc;
     border-radius: 12px;
+    margin-bottom: 5px;
     overflow: hidden;
     font-family: 'Work Sans', sans-serif;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
