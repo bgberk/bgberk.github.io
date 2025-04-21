@@ -168,12 +168,21 @@ body {
   <img src="/assets/photos/enriquecafe.png" alt="Enrique in New York" style="width: 100%; height: auto; border-radius: 12px;" />
 </div>
 
-  <p>Talk to the birds without shyness. They carry the oldest oral tradition.</p>
+<p>Throughout history, people have sought answers in the stars, cards, or bones. Enrique invokes the tradition of the language of the birds—a poetic myth that describes a universal language—to pose those questions to them. For Enrique, speaking with birds is both a metaphorical concept and a literal interaction through their calls.</p>
+
+<p>Enrique ultimately understood that this original language was rhythm, which transcends words and connects all things through shape and pattern. Talking to birds is a way to connect with the rhythm of the world.</p>
+
+<p>We are made of uncertainty, and touching the voice of birds is one way, a voice we use to connect with that otherness.</p>
+
+<p>Before the talk, attendees can send questions directly to the birds; these are confidential. As the session unfolds, Enrique unveils the birds' answers: revelations that often resonate universally, yet impact each listener with intimacy and meaning, as if meant only for their ears.</p>
+
 
 <video controls autoplay muted playsinline loop style="width: 100%; max-width: 800px; border-radius: 12px; margin-top: 3rem; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
   <source src="/assets/videos/CLIP.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+  <p>Talk to the birds without shyness. They carry the oldest oral tradition.</p>
 
   <footer>
     &copy; 2025
