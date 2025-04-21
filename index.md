@@ -7,7 +7,7 @@ layout: null
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ask the Birds</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Puritan:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     * {
       box-sizing: border-box;
@@ -25,14 +25,14 @@ body {
   }
 
   h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Puritan', sans-serif;
     font-weight: 700;
     margin-bottom: 1rem;
   }
 
   p {
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #ccc;
     max-width: 700px;
     margin: 2rem auto;
