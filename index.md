@@ -86,7 +86,7 @@ layout: null
   <p>Talk to the birds without shyness. They carry the oldest oral tradition.</p>
 
 <video controls autoplay muted playsinline loop style="width: 100%; max-width: 800px; border-radius: 12px; margin-top: 3rem; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
-  <source src="/assets/videos/clip.mp4" type="video/mp4">
+  <source src="/assets/videos/CLIP.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
