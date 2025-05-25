@@ -31,6 +31,11 @@ body {
     margin-bottom: 1rem;
   }
 
+  input {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+
   p {
     font-weight: 300;
     font-size: 1.25rem;
