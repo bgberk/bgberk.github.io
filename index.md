@@ -141,6 +141,26 @@ body {
 
   <p>Birds are words that fly, returning messages and visions.</p>
 
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="JS7M4948R2NJQ" />
+  <table>
+    <tr>
+      <td>
+        <input type="hidden" name="on0" value="What would you like to ask the birds?"/>
+        What would you like to ask the birds?
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" name="os0" maxLength="200" />
+      </td>
+    </tr>
+  </table>
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="https://www.allaboutbirds.org/news/wp-content/uploads/2009/04/05_barnswallow_bw.jpg" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+</form>
+
   <p>Ask your questions, and Enrique Enriquez will speak to the birds to retrieve their answers. He will share some of these answers at his talk on Friday, May 30, 2025, at 7:30pm (doors at 6:30pm) at The Gold Bug in Pasadena.</p>
 
   <div class="event-widget">
