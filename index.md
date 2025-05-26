@@ -152,7 +152,7 @@ body {
   <table>
     <tr>
       <td>
-        <input type="hidden" name="on0" value="What would you like to ask?"/>
+        <input type="hidden" name="on0" style="width: 100%; height: auto; text-align: center;" value="What would you like to ask?"/>
         What would you like to ask?
       </td>
     </tr>
@@ -163,7 +163,7 @@ body {
     </tr>
   </table>
   <input type="hidden" name="currency_code" value="USD" />
-  <input type="image" src="https://askthebirds.org/assets/photos/askbutton.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+  <input type="image" size="75" src="https://askthebirds.org/assets/photos/askbutton.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
 </form>
 
   <p>Ask your questions, and Enrique Enriquez will speak to the birds to retrieve their answers. He will share some of these answers at his talk on Friday, May 30, 2025, at 7:30pm (doors at 6:30pm) at The Gold Bug in Pasadena.</p>
