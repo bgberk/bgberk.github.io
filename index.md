@@ -166,6 +166,20 @@ body {
   <input type="image" width="auto" height="50" src="https://askthebirds.org/assets/photos/askbutton.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
 </form>
 
+<p> THIS IS THE SECOND TRY. </p>
+<script 
+  src="https://www.paypal.com/sdk/js?client-id=BAA4iLEOGnKBnsmYuWrtzbJ5_IPfppmSf5sWibx4e7rdMmCbbm4YH1fnPU4UNKkOft4_XBiemn2keonTj8&components=hosted-buttons&enable-funding=venmo&currency=USD">
+</script>
+
+<p> THIS IS THE THIRD TRY. </p>
+
+<div id="paypal-container-RKFPYPANX6F8G"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "RKFPYPANX6F8G",
+  }).render("#paypal-container-RKFPYPANX6F8G")
+</script>
+
   <p>Ask your questions, and Enrique Enriquez will speak to the birds to retrieve their answers. He will share some of these answers at his talk on Friday, May 30, 2025, at 7:30pm (doors at 6:30pm) at The Gold Bug in Pasadena.</p>
 
   <div class="event-widget">
