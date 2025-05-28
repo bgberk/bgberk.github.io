@@ -136,6 +136,46 @@ body {
       font-size: 0.9rem;
       color: #777;
     }
+
+ .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    form {
+      background-color: #f9f9f9;
+      font-family: "Lato", sans-serif;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    input[type="image"] {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    
   </style>
 </head>
 <body>
@@ -167,6 +207,7 @@ body {
 </form>
 
 <p> THIS IS THE SECOND TRY. </p>
+<div class="form-container">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick" />
   <input type="hidden" name="hosted_button_id" value="BQVEBVV9PZDD4" />
@@ -184,8 +225,9 @@ body {
     </tr>
   </table>
   <input type="hidden" name="currency_code" value="USD" />
-  <input type="image" src="http://askthebirds.org/assets/askbutton.png" border="0" name="submit" title="Payment Link" alt="Pay Now" />
+  <input type="image" src="https://askthebirds.org/assets/photos/askbutton.png" border="0" name="submit" title="Payment Link" alt="Pay Now" />
 </form>
+</div>
 
   <p>Ask your questions, and Enrique Enriquez will speak to the birds to retrieve their answers. He will share some of these answers at his talk on Friday, May 30, 2025, at 7:30pm (doors at 6:30pm) at The Gold Bug in Pasadena.</p>
 
