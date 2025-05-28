@@ -167,18 +167,25 @@ body {
 </form>
 
 <p> THIS IS THE SECOND TRY. </p>
-<script 
-  src="https://www.paypal.com/sdk/js?client-id=BAA4iLEOGnKBnsmYuWrtzbJ5_IPfppmSf5sWibx4e7rdMmCbbm4YH1fnPU4UNKkOft4_XBiemn2keonTj8&components=hosted-buttons&enable-funding=venmo&currency=USD">
-</script>
-
-<p> THIS IS THE THIRD TRY. </p>
-
-<div id="paypal-container-RKFPYPANX6F8G"></div>
-<script>
-  paypal.HostedButtons({
-    hostedButtonId: "RKFPYPANX6F8G",
-  }).render("#paypal-container-RKFPYPANX6F8G")
-</script>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="BQVEBVV9PZDD4" />
+  <table>
+    <tr>
+      <td>
+        <input type="hidden" name="on0" value="question"/>
+        Send a question to the birds:
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" name="os0" maxLength="500" />
+      </td>
+    </tr>
+  </table>
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="http://askthebirds.org/assets/askbutton.png" border="0" name="submit" title="Payment Link" alt="Pay Now" />
+</form>
 
   <p>Ask your questions, and Enrique Enriquez will speak to the birds to retrieve their answers. He will share some of these answers at his talk on Friday, May 30, 2025, at 7:30pm (doors at 6:30pm) at The Gold Bug in Pasadena.</p>
 
