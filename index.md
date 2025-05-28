@@ -147,11 +147,8 @@ body {
     }
 
     form {
-      background-color: #f9f9f9;
       font-family: "Lato", sans-serif;
       padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       max-width: 500px;
       width: 100%;
     }
