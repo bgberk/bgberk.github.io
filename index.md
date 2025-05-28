@@ -168,7 +168,7 @@ body {
     input[type="image"] {
       display: block;
       margin: 0 auto;
-      max-width: 100%;
+      max-width: 100px;
       height: auto;
     }
 
