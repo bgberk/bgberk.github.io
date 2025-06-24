@@ -5,6 +5,7 @@ body {
   background: #949494;
   color: white;
   margin-bottom: 5rem;
+  line-height: 1.8;
 }
 
 @font-face {
@@ -67,4 +68,11 @@ button {
   max-width: 200px;
   margin: 0 auto;
   font-size: 1.25rem;
+}
+
+
+@media (max-width: 768px) {
+  .text-block {
+    font-weight: 900;
+  }
 }
