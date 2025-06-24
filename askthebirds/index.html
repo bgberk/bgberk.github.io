@@ -31,8 +31,10 @@
   </section>
 
   <section class="form-section">
-    <form id="contact-form">
-      <input type="text" id="message" placeholder="Send a question to the birds" required />
+    <form action="https://airform.io/benjamin@theministryofpeculiarities.com" method="post" id="contact-form">
+      <input type="text" name="name" placeholder="Name">
+      <input type="text" name="email" placeholder="Contact email" required>  
+      <input type="text" id="message" name="message" placeholder="Send a question to the birds" required>
       <button type="submit">Ask the Birds</button>
     </form>
   </section>
