@@ -2,7 +2,8 @@ body {
   font-family: sans-serif;
   text-align: center;
   padding: 2rem;
-  background: #f8f8f8;
+  background: #949494;
+  color: white;
 }
 
 .video, .text-block, .form-section {
@@ -12,4 +13,12 @@ body {
 input, button {
   padding: 0.5rem;
   font-size: 1rem;
+}
+
+button {
+  background-color: #666;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
 }

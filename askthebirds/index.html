@@ -3,23 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Page</title>
+  <title>Ask the Birds</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <section class="video">
-    <video controls src="your-video.mp4" width="600"></video>
+    <video controls="" autoplay="" muted="" playsinline="" loop="" style="width: 100%; max-width: 800px; border-radius: 12px; margin-top: 3rem; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+  <source src="../assets/videos/CLIP.mp4" type="video/mp4">
+  Your browser does not support the video tag. Video: Enrique Enriquez listening to the birds. White text appears: ASK THE BIRDS.
+</video>
   </section>
 
   <section class="text-block">
-    <h1>Welcome!</h1>
-    <p>Edit me in the repo 👋</p>
+    <p>Birds are words that fly, returning messages and visions. Your question will be posed to the birds in their language and the answer will be returned in our words, not to prescribe a certainty but to poetize life.</p>
   </section>
 
   <section class="form-section">
     <form id="contact-form">
-      <input type="text" id="message" placeholder="Type a message..." required />
-      <button type="submit">Send</button>
+      <input type="text" id="message" placeholder="Send a question to the birds" required />
+      <button type="submit">Ask the Birds</button>
     </form>
     <p id="status-msg"></p>
   </section>
